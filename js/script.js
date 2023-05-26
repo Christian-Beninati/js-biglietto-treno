@@ -17,7 +17,7 @@ console.log('Questa è l\'età del passeggero', age, typeof age)
 // Calcola il prezzo del biglietto in base ai km
 let price = kilometres * 0.21;
 
-// Calcola il prezzo senza sconto
+// Calcola il prezzo del biglietto prima dello sconto
 let priceBeforeDiscount = price;
 console.log('Prezzo biglieto prima dello sconto', priceBeforeDiscount)
 

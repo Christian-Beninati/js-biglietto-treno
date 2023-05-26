@@ -21,6 +21,8 @@ L'output del prezzo finale va messo fuori con massimo due decimali, per indicare
 - Salvarlo in una variabile
 - Calcolare il prezzo del biglietto in base ai km
 - Salvarlo in una variabile
+- Calcola il prezzo del biglietto prima dello sconto
+- Salvarlo in una variabile
 - Applica gli sconti in base all'età
   - Se ha < 18 anni sconto sul prezzo del biglietto del 20%
   - Alriment Se ha > 65 anni sconto sul prezzo del biglietto del 40%
