@@ -17,6 +17,11 @@ console.log('Questa è l\'età del passeggero', age, typeof age)
 // Calcola il prezzo del biglietto in base ai km
 let price = kilometres * 0.21;
 
+// Calcola il prezzo senza sconto
+let priceBeforeDiscount = price;
+console.log('Prezzo biglieto prima dello sconto', priceBeforeDiscount)
+
+
 // Applica gli sconti in base all'età
 
 // Sconto del 20% per i minorenni
@@ -34,5 +39,10 @@ price = price.toFixed(2);
 // Stampa il prezzo finale in console
 console.log(`Il prezzo del biglietto è: ${price} €`);
 
-// Inserire il risultato nell'elemento del DOM
-PriceTicketPlaceholder.innerText = price + ' € ' ;
+
+// Inserire il risultato nell'elemento del DOM (info aggiuntive)
+PriceTicketPlaceholder.innerHTML = `
+  <p>Chilometri da percorrere: ${kilometres}</p>
+  <p>Età del passeggero: ${age}</p>
+  <p>Prezzo prima dello sconto: ${priceBeforeDiscount.toFixed(2)} €</p>
+  <p>Prezzo finale: ${price} €</p>`;
