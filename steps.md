@@ -14,6 +14,7 @@ L'output del prezzo finale va messo fuori con massimo due decimali, per indicare
 <br>
 <br>
 
+- Recuperare l'elemento dal DOM (verificare in console)
 - Chiedere all'utente il numero di chilometri da percorrere.
 - Salvarlo in una variabile
 - Chiedere all'utente l'età
@@ -25,3 +26,4 @@ L'output del prezzo finale va messo fuori con massimo due decimali, per indicare
   - Alriment Se ha > 65 anni sconto sul prezzo del biglietto del 40%
 - Arrotonda il prezzo a due decimali.
 - Stampare il prezzo finale in console
+- Inserire il risultato dell'elemento del DOM (recuperato in precedenza)

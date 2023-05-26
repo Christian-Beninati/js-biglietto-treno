@@ -1,5 +1,9 @@
 // console.log('JS OK')
 
+// Recuperare il placeholder dal DOM" 
+const PriceTicketPlaceholder = document.getElementById("price-ticket");
+console.log(PriceTicketPlaceholder);
+
 // Chiedere all'utente il numero di chilometri da percorrere
 const kilometres = parseInt(prompt("Inserisci il numero di chilometri da percorrere:"));
 
@@ -29,3 +33,6 @@ price = price.toFixed(2);
 
 // Stampa il prezzo finale in console
 console.log(`Il prezzo del biglietto è: ${price} €`);
+
+// Inserire il risultato nell'elemento del DOM
+PriceTicketPlaceholder.innerText = price + ' € ' ;
