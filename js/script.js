@@ -19,7 +19,7 @@ let price = kilometres * 0.21;
 
 // Calcola il prezzo del biglietto prima dello sconto
 let priceBeforeDiscount = price;
-console.log('Prezzo biglieto prima dello sconto', priceBeforeDiscount)
+console.log(`Prezzo biglieto prima dello sconto: ${priceBeforeDiscount} €`)
 
 
 // Applica gli sconti in base all'età
@@ -37,12 +37,12 @@ if (age < 18) {
 price = price.toFixed(2);
 
 // Stampa il prezzo finale in console
-console.log(`Il prezzo del biglietto è: ${price} €`);
+console.log(`Il prezzo del biglietto scontato è: ${price} €`);
 
 
 // Inserire il risultato nell'elemento del DOM (info aggiuntive)
 PriceTicketPlaceholder.innerHTML = `
   <p>Chilometri da percorrere: ${kilometres}</p>
   <p>Età del passeggero: ${age}</p>
-  <p>Prezzo prima dello sconto: ${priceBeforeDiscount.toFixed(2)} €</p>
-  <p>Prezzo finale: ${price} €</p>`;
+  <p>Prezzo biglieto prima dello sconto: ${priceBeforeDiscount.toFixed(2)} €</p>
+  <p>Il prezzo del biglietto scontato è: ${price} €</p>`;
