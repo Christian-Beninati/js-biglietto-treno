@@ -6,8 +6,8 @@ const kilometres = parseInt(prompt("Inserisci il numero di chilometri da percorr
 // Chiedere all'utente l'età 
 const age = parseInt(prompt("Inserisci l'età del passeggero:"));
 
-console.log(kilometres, typeof kilometres)
-console.log(age, typeof age)
+console.log('Questi sono i km da percorrere ', kilometres, typeof kilometres)
+console.log('Questa è l\'età del passeggero', age, typeof age)
 
 
 // Calcola il prezzo del biglietto in base ai km
